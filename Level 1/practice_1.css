@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+#heading{
+    color: blue;
+}
+
+#first,#second{
+    color: chartreuse;
+}
+
+div p{
+    color: rgb(17, 151, 160);
+}
+
+.class, #id{
+    color: brown;
+}
+/* i love to apply colors */
