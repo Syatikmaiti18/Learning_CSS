@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <!--this includes different types of padding property, margin property & border property-->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+            margin: 5px;  
+            box-sizing: content-box;
+            box-sizing: border-box;
+        }
+        #first{
+            border: 5px solid black;
+            border-radius: 10px;
+            background-color: slateblue;
+        }
+        #second{
+            border: 5px dashed red;
+            border-radius: 10px;
+            background-color: rgb(11, 171, 107);
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">first</div>
+    <div id="second" class="pad">second</div>
+</body>
+</html>
